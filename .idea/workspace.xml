@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a5aa3e4-0a1b-4f12-900c-816b571aac03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diagrams/Browse Main Page.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrams/Register.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,14 +62,30 @@
       <workItem from="1602363834286" duration="24000" />
       <workItem from="1603879699202" duration="5812000" />
       <workItem from="1603907770877" duration="1313000" />
-      <workItem from="1604005155262" duration="2680000" />
+      <workItem from="1604005155262" duration="4770000" />
     </task>
+    <task id="LOCAL-00001" summary="Lagd første aktivitest Diaggram for Hjemmesidet">
+      <created>1604008251788</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604008251788</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lagd første aktivitest Diaggram for Hjemmesidet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lagd første aktivitest Diaggram for Hjemmesidet" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="21" y="2" key="CommitChangelistDialog2" timestamp="1604008251301">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="21" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1604008251301" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1601218811407">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -91,6 +106,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1603992574773" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1604008269494">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604008269494" />
     <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1604005154187">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

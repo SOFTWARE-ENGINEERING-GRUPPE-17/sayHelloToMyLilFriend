@@ -1,0 +1,22 @@
+@startuml
+(*)  --> "<step> Fill in account info"
+--> "<step> Fill in user info"
+-right-> "<step> Fill in payment info"
+--> "<step> Confirm information"
+if "Abort?" then
+-down-> [Yes] "<page> return to main page"
+--> (*)
+else
+-right->[No] "<handler> Insert user in DB"
+-->"<handler> Send confirmation code"
+-->"<handler> Send confirmation email"
+-->"<page> Show e-mail sent message"
+--> if "Proceed to Profile?" then
+-->[Yes] "<page> Open profile"
+--> (*)
+else
+-->[No] "<page> return to main page"
+Endif
+Endif
+-->(*)
+@enduml
