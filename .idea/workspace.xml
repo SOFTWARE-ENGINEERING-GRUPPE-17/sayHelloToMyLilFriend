@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a5aa3e4-0a1b-4f12-900c-816b571aac03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diagrams/Register.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diagrams/Browse Main Page.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/diagrams/Browse Main Page.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1i31k9kBnA9qf42SPRtqvch9yAy" />
   <component name="ProjectViewState">
@@ -62,7 +63,7 @@
       <workItem from="1602363834286" duration="24000" />
       <workItem from="1603879699202" duration="5812000" />
       <workItem from="1603907770877" duration="1313000" />
-      <workItem from="1604005155262" duration="4770000" />
+      <workItem from="1604005155262" duration="5470000" />
     </task>
     <task id="LOCAL-00001" summary="Lagd første aktivitest Diaggram for Hjemmesidet">
       <created>1604008251788</created>
@@ -71,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604008251788</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lagd andre aktivitest Diaggram for Registrering">
+      <created>1604010787966</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604010787966</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,13 +87,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lagd første aktivitest Diaggram for Hjemmesidet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lagd første aktivitest Diaggram for Hjemmesidet" />
+    <MESSAGE value="Lagd andre aktivitest Diaggram for Registrering" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lagd andre aktivitest Diaggram for Registrering" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="21" y="2" key="CommitChangelistDialog2" timestamp="1604008251301">
+    <state x="21" y="2" key="CommitChangelistDialog2" timestamp="1604010787708">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="21" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1604008251301" />
+    <state x="21" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1604010787708" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1601218811407">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -106,13 +115,17 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1603992574773" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1604008269494">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1604011097931">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604008269494" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604011097931" />
     <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1604005154187">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1604005154187" />
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604011124207">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1604011124207" />
   </component>
 </project>

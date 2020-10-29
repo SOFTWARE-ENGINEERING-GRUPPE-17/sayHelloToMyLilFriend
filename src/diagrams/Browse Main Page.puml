@@ -1,6 +1,7 @@
 @startuml
 (*)  --> "Land on Home Page"
 if "chose activity" then
+-left->  "Show available parking slots"
 -left->  "Adjust search filter"
 --> "Scroll/read the parking-slot snippets"
 -right-> "Book a parking slot"
