@@ -3,6 +3,7 @@ actor User
 boundary Frontend
 boundary Backend
 database Database
+entity Server
 /' -------------- Innlogging ------------- '/
 User -> Frontend: Log inn with \nusername + password
 Frontend -> Backend: Username +\n password
@@ -19,8 +20,10 @@ Frontend -> User: Fill out this form
 User -> Frontend: Filled out
 Frontend -> Backend: Filled out
 Backend -> Backend: Verify data
+Backend -> Server: Upload picture
 Backend -> Database: Insert data
-Database -> Backend: Successfully done
+Server -> Backend: Upload complete
+Database -> Backend: Data inserted
 Backend -> Frontend: Successfully done
 Frontend -> User: P-spot created successfully
 
