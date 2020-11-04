@@ -1,0 +1,105 @@
+@startuml
+
+/' ----------------     Modell klasser    ------------ '/
+interface IParkering{
+    int: PLASSER_TOTALT
+    int: antallLedigePlasser
+    int: id
+    String: bildeadresse
+    reserver(tilTidspunkt): void
+    reserver(fraTidspunkt, tilTidspunkt): void
+    reserver(antall, tilTidspunkt): void
+    reserver(antall, fraTidspunkt, tilTidspunkt): void
+}
+interface IKjoretoy{
+    String: registreringsnummer
+}
+class Kjoretoy{
+  String: registreringsnummer
+}
+class Parkeringsplass{
+  boolean: ledig
+  String: gatenavn
+  int: gatenummer
+  int: pris
+  String: bildeadresse
+  reserver(tilTidspunkt): void
+  reserver(fraTidspunkt, tilTidspunkt): void
+}
+class Parkeringshus{
+  int: PLASSER_TOTALT
+  int: antallLedigePlasser
+  reserverNoenPlasser(antall, tilTidspunkt): void
+  reserverNoenPlasser(antall, fraTidspunkt, tilTidspunkt): void
+}
+class Bruker{
+  String: navn
+  String: epost
+  int: telefonnummer
+  ArrayList<IKjoretoy>: kjoretoy
+  ArrayList<IParkeringsplass>: parkeringsplass
+
+  registrerKjoretoy(regnummer): void
+  fjernKjoretoy(kjoretoy): void
+  registrerParkeringsplass(gatenavn, gatenummer, antallPlasser): void
+  fjernParkeringsplass(id): void
+}
+
+
+/'---------------    DB     -------------------'/
+interface IRepository{
+    ArrayList<Bruker>: brukere
+
+    alleParkeringer(): ArrayList(IParkering)
+    alleKjoretoy(): ArrayList(IKjoretoy)
+    fjernKjoretoy(id): void
+    fjernParkeringsplass(id): void
+    registrerKjoretoy(registreringsnummer): void
+    registrerParkeringsplass(gatenavn, gatenummer, antallPlasser): void
+}
+class DBRepository{
+    String: ADDRESSE
+
+    alleParkeringer(): ArrayList(IParkering)
+    alleKjoretoy(): ArrayList(IKjoretoy)
+    fjernKjoretoy(id): void
+    fjernParkeringsplass(id): void
+}
+
+interface IServer{
+
+    getBilde(bildeadresse): File
+    addBilde(File Bilde): void
+    removeBilde(bildeadresse): void
+}
+class ServerController{
+    String: ServerAdresse
+    connectToServer(): void
+    getBilde(bildeadresse): File
+    addBilde(File Bilde): void
+    removeBilde(bildeadresse): void
+}
+
+/'-------------  Systemet  -----------------'/
+class Program{
+    HashMap<brukernavn, Bruker>: brukere
+    IRepository: repository
+}
+
+
+/' ------------  Piler  --------------------- '/
+IKjoretoy <|.. Kjoretoy
+IKjoretoy o-- Bruker
+IServer o-- Bruker
+ServerController <|-- IServer
+
+IParkering <|.. Parkeringsplass
+IParkering o-- Bruker
+Parkeringsplass --> Parkeringshus
+
+IRepository <|.. DBRepository
+
+Program --> IRepository
+Program --> Bruker
+IRepository --> Bruker
+@enduml
