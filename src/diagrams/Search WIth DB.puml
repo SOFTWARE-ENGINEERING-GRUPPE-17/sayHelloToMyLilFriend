@@ -1,0 +1,26 @@
+@startuml
+(*) --> Get users city
+If "Users city registered" then
+    --> [No] Select new country
+else
+    --> [Yes] Use users city
+endif
+If "Change city?" then
+    --> [Yes] If "Change county?" then
+        --> [Yes] If "Change country?" then
+            --> [Yes] "Select new country"
+            --> [New country] "Select new county"
+        else
+            --> [No] Select new county
+            --> [New county] Select new city
+
+        endif
+    else
+        --> [No] "Select new city"
+        --> [New city] "Use city"
+    endif
+else
+    --> [No] "Use city"
+endif
+-->(*)
+@enduml
