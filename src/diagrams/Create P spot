@@ -1,0 +1,30 @@
+@startuml
+actor User
+boundary Frontend
+boundary Backend
+database Database
+entity Server
+/' -------------- Innlogging ------------- '/
+User -> Frontend: Log inn with \nusername + password
+Frontend -> Backend: Username +\n password
+Backend -> Database: Username +\n password
+Database -> Backend: OK
+Backend -> Frontend: OK
+Frontend -> User: Now signed in
+
+/' -------------- Starter med å lage ------------- '/
+User -> Frontend: Create P-spot
+Frontend -> Backend: Create P-spot
+Backend -> Frontend: Fill inn data
+Frontend -> User: Fill out this form
+User -> Frontend: Filled out
+Frontend -> Backend: Filled out
+Backend -> Backend: Verify data
+Backend -> Server: Upload picture
+Backend -> Database: Insert data
+Server -> Backend: Upload complete
+Database -> Backend: Data inserted
+Backend -> Frontend: Successfully done
+Frontend -> User: P-spot created successfully
+
+@enduml
