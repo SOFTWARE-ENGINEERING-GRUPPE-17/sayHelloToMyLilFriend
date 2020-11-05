@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from "./screens/Nav";
+import Nav from "./Components/Nav";
 import Home from "./screens/HomeScreen";
 import Park from "./screens/parkering";
 import Rent from "./screens/Rent";
