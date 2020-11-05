@@ -1,9 +1,20 @@
 @startuml
 (*) --> Get users city
 If "Users city registered" then
-    --> [No] Select new country
+    --> [No] If "Users county registered" then
+        --> [Yes] Select city
+        --> [Selected city] Use selected city
+    else
+        --> [No] If "Users country registered" then
+            --> [No] Select country
+            --> [Country] Select county
+        else
+            --> [Yes] Select county
+        endif
+    endif
+    --> [County] Select city
 else
-    --> [Yes] Use users city
+    --> [Yes] Use selected city
 endif
 If "Change city?" then
     --> [Yes] If "Change county?" then
