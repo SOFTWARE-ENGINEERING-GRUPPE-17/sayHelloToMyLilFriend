@@ -1,0 +1,24 @@
+@startuml
+'(*)  --> "check input"
+'If "input is verbose" then
+'--> [Yes] "turn on verbosity"
+'--> "run command"
+'else
+'--> "run command"
+'Endif
+'-->(*)
+
+@startuml
+digraph foo {
+
+  Customer [fillcolor=yellow, style="filled", shape=box]
+  node2 [fillcolor=white, style="rounded, filled", shape=record, label="{ Process 1.0|Process registration info  }"]
+  node3 [fillcolor=grey, style="filled", shape=record, label="{ Data 1|Parking Order  }"]
+
+  Customer -> node2 [label = "  register a parking slot"];
+  node2 -> node3 [label = " save parking data"];
+
+}
+
+
+@enduml

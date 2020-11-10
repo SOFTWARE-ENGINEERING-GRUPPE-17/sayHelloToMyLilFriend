@@ -1,0 +1,169 @@
+@startuml
+'overordnet grupper 1-3
+
+left to right direction
+:User: as usr
+':Admin: as adm
+package "Parkering AS" {
+'overordnet
+ usecase "Registering Of Account" as A1
+ usecase "User Login" as A2
+ usecase "User Setup" as A3
+' usecase "Register Parking Slot" as A4
+' usecase "Order Parking Slot" as A5
+' usecase "Administer Self" as A6
+' usecase "Register Unpayed" as A7
+' usecase "Integrated Maps" as A8
+' usecase "Parking owner" as A9
+' usecase "Statistics" as A10
+' usecase "Sorting" as A11
+' usecase "Conatct" as A12
+' usecase "Rapport" as A13
+' usecase "Administer" as A14
+
+
+' underordnet
+ 'A1 "Registering Of Account"
+ usecase "Register an Email" as A1B1
+ usecase "Register a Phone Number" as A1B2
+ usecase "Sign in With Google" as A1B3
+ usecase "Sign in With Apple" as A1B4
+ 'A2 "User Login"
+ usecase "Instant Login with tlf/email" as A2B1
+ usecase "Login with 3-rd Party" as A2B2
+ usecase "Restore Password" as A2B3
+ 'A3 "User Setup"
+ usecase "Register a Car with shield number" as A3B1
+ usecase "Register a Credit/Debit Card" as A3B2
+ usecase "Register a Vips Account" as A3B3
+' 'A4 "Register Parking Slot"
+' usecase "Register a Parking House" as A4B1
+' usecase "Adjust Parking Slot Spacing" as A4B2
+' usecase "Register a Single Parking Slot" as A4B3
+' 'A5 "Order Parking Slot"
+' usecase "List Available Parking Slots" as A5B1
+' usecase "List Parking Slots Closer to Exit" as A5B2
+' usecase "List Parking Slots Close to Me(GPS)" as A5B3
+' usecase "Reserve Parking Slot" as A5B4
+' usecase "Define Reserve Time" as A5B5
+' usecase "Cancel Reservation" as A5B6
+' usecase "Prolong Reservation" as A5B7
+' 'A6 "Administer Own"
+' usecase "List Reserved Slots" as A6B1
+' usecase "Report Unknown Parked Car By Shield-N" as A6B2
+' 'A7 "Register Unpayed"
+' usecase "User Warning If Car Number Not Matching" as A7B1
+' usecase "Register an Unknown User" as A7B2
+' 'A8 "Integrated Maps"
+' usecase "Get Aid of "Open Map" For Indoors" as A8B1
+' usecase "Get Aid Of "Google Maps" For Location Search" as A8B2
+' usecase "Get Aid of "Google Maps"  For Indoors Search" as A8B3
+' usecase "Get Aid of "Open Map" Support For Location Search" as A8B4
+' 'A9  "Parking owner"
+' usecase "Overview Owned Slots" as A9B1
+' usecase "Overview Usage Statistics" as A9B2
+'' A10 "Statistics"
+' usecase "Overview Unpayed Reported Cars" as A10B1
+' usecase "Overview Registering Per Time Unit" as A10B2
+' usecase "Overview Income Per Time Unit" as A10B3
+' 'A11 "Sorting"
+' usecase "Sort By GPS" as A11B1
+' usecase "Sort By Travel Time " as A11B2
+' usecase "Sort By Previously Most Used " as A11B3
+' 'A12 "Conatct"
+' usecase "Communicate with Integrated Chat" as A12B1
+' usecase "Get Mobile Number Of Another User" as A12B2
+' usecase "Get Email Addres Of Another User" as A12B3
+' 'A13 "Rapport"
+' usecase "Report Occupied Reserved Slot" as A13B1
+' usecase "Report Non-Responding Parking-Owner " as A13B2
+' usecase "Report Inappropriate Add Content" as A13B3
+' usecase "Report Inappropriate Chat Content" as A13B4
+ 'A14 "Administrer"
+' usecase "Remove Inappropriate Parking Registration" as A14B1
+' usecase "Ban User Temporarily" as A14B2
+' usecase "Remove User Permanently" as A14B3
+
+}
+
+'User - Entities
+usr -> A1
+usr -> A2
+usr -> A3
+'usr -> A4
+'usr -> A5
+'usr -> A6
+'usr -> A7
+'usr -> A8
+'usr -> A9
+'usr -> A10
+'usr -> A11
+'usr -> A12
+'usr -> A13
+
+'adm -> A14
+
+'ENtities - Enteties
+A1 --> A1B1
+A1 --> A1B2
+A1 --> A1B3
+A1 --> A1B4
+
+A2 --> A2B1
+A2 --> A2B2
+A2 --> A2B3
+
+A3 --> A3B1
+A3 --> A3B2
+A3 --> A3B3
+'
+'A4 --> A4B1
+'A4 --> A4B2
+'A4 --> A4B3
+'
+'A5 --> A5B1
+'A5 --> A5B2
+'A5 --> A5B3
+'A5 --> A5B4
+'A5 --> A5B5
+'A5 --> A5B6
+'A5 --> A5B7
+'
+'A6 --> A6B1
+'A6 --> A6B2
+'
+'A7 --> A7B1
+'A7 --> A7B2
+'
+'A8 --> A8B1
+'A8 --> A8B2
+'A8 --> A8B3
+'A8 --> A8B4
+'
+'A9 --> A9B1
+'A9 --> A9B2
+'
+'A10 --> A10B1
+'A10 --> A10B2
+'A10 --> A10B3
+'
+'A11 --> A11B1
+'A11 --> A11B2
+'A11 --> A11B3
+'
+'A12 --> A12B1
+'A12 --> A12B2
+'A12 --> A12B3
+'
+'A13 --> A13B1
+'A13 --> A13B2
+'A13 --> A13B3
+'A13 --> A13B4
+
+'A14 --> A14B1
+'A14 --> A14B2
+'A14 --> A14B3
+
+
+
+@enduml

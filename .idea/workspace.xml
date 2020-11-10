@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a5aa3e4-0a1b-4f12-900c-816b571aac03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/diagrams/Data Flow Payment info.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrams/Data Flow of Register Parking.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrams/Use cases.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrams/Usecases Admin Gruppe1.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrams/Usecases User Gruppe1.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrams/Usecases User Gruppe2.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrams/Usecases User Gruppe3.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrams/Usecases User Gruppe4.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrams/Usecases User Gruppe5.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="UML Activity" />
+        <option value="UML Use Case" />
       </list>
     </option>
   </component>
@@ -29,7 +39,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultPlantUmlFileTemplate" value="UML Activity" />
+    <property name="DefaultPlantUmlFileTemplate" value="UML Use Case" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
@@ -64,6 +74,8 @@
       <workItem from="1603907770877" duration="1313000" />
       <workItem from="1604005155262" duration="5850000" />
       <workItem from="1604068716455" duration="217000" />
+      <workItem from="1604943395533" duration="8841000" />
+      <workItem from="1605025452531" duration="10325000" />
     </task>
     <task id="LOCAL-00001" summary="Lagd første aktivitest Diaggram for Hjemmesidet">
       <created>1604008251788</created>
@@ -131,13 +143,15 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1604866385748" />
-    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604866396042">
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605041511442">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800/-1196.0.1196.896@0.0.1280.800" timestamp="1605041511442" />
     <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1604866396042" />
-    <state x="148" y="198" key="git4idea.merge.GitPullDialog" timestamp="1604011621714">
+    <state x="148" y="198" key="git4idea.merge.GitPullDialog" timestamp="1605041525538">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="148" y="198" key="git4idea.merge.GitPullDialog/0.0.1280.800/-1196.0.1196.896@0.0.1280.800" timestamp="1605041525538" />
     <state x="148" y="198" key="git4idea.merge.GitPullDialog/0.0.1280.800@0.0.1280.800" timestamp="1604011621714" />
   </component>
 </project>

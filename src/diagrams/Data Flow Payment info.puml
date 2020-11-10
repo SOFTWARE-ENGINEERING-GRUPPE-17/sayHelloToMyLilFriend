@@ -1,0 +1,15 @@
+@startuml
+digraph foo {
+
+  Customer [fillcolor=yellow, style="filled", shape=box]
+  node3 [fillcolor=grey, style="filled", shape=record, label="{ Data 1|Parking Order  }"]
+  node5 [fillcolor=white, style="rounded,filled", shape=record, label="{ Process 2.0|Process Payment  }"]
+  node6 [fillcolor=white, style="rounded,filled", shape=record,  label="{ Process 3.0|email receipt generator-sender}"]
+
+  node3 -> node5 [label = "  payment procedure"];
+  node5 -> node6 [label = "  generate receipt"];
+  node6 -> Customer [label = "  email receipt"];
+
+
+}
+@enduml

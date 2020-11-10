@@ -1,0 +1,53 @@
+@startuml
+left to right direction
+:User: as usr
+:Admin: as adm
+package "Parkering AS" {
+ usecase "Register Parking Add" as D1
+ usecase "Comment" as D2
+ usecase "Contact Parking Add Owner" as D3
+ usecase "Edit Comments" as D4
+' usecase "Subscribe" as D5
+' usecase "Follow" as D6
+ usecase "Rent a Parking" as D7
+ usecase "Analytics" as D8
+ usecase "Income" as D9
+ usecase "Ban user" as D10
+ usecase "Report Parking Add" as D11
+ usecase "Register" as D12
+ usecase "Login" as D13
+ usecase "View Parking Add" as D14
+ usecase "Share" as D15
+ usecase "Remove Parking Add" as D16
+ usecase "Edit Parking Add" as D17
+
+}
+
+usr --> D2
+usr --> D3
+'usr --> D5
+'usr --> D6
+usr --> D7
+usr --> D11
+usr --> D12
+usr --> D13
+usr --> D14
+usr --> D15
+'usr --> D16
+
+adm --> D1
+adm --> D4
+adm --> D2
+adm --> D3
+adm --> D8
+adm --> D9
+adm --> D10
+adm --> D13
+adm --> D14
+adm --> D15
+adm --> D16
+adm --> D17
+
+
+
+@enduml
