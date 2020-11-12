@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a5aa3e4-0a1b-4f12-900c-816b571aac03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diagrams/Data Flow Payment info.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrams/Data Flow of Register Parking.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrams/Use cases.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrams/Usecases Admin Gruppe1.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrams/Usecases User Gruppe1.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrams/Usecases User Gruppe2.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrams/Usecases User Gruppe3.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrams/Usecases User Gruppe4.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrams/Usecases User Gruppe5.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AddItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AddItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ItemCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ItemCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Rent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Rent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +70,7 @@
       <workItem from="1604068716455" duration="217000" />
       <workItem from="1604943395533" duration="8841000" />
       <workItem from="1605025452531" duration="10325000" />
+      <workItem from="1605180428065" duration="238000" />
     </task>
     <task id="LOCAL-00001" summary="Lagd første aktivitest Diaggram for Hjemmesidet">
       <created>1604008251788</created>
@@ -111,30 +106,35 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update diagram Browse Main Page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="21" y="2" key="CommitChangelistDialog2" timestamp="1604011594106">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="25" y="2" key="CommitChangelistDialog2" timestamp="1605180738054">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="21" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1604011594106" />
+    <state x="25" y="2" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1605180738054" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1601218811407">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601218811407" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1603992574775">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom" timestamp="1605180499144">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1603992574775" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1603992574772">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605180499144" />
+    <state width="1493" height="174" key="GridCell.Tab.0.center" timestamp="1605180499144">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1603992574772" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1603992574767">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1493" height="174" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605180499144" />
+    <state width="1493" height="174" key="GridCell.Tab.0.left" timestamp="1605180499144">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1603992574767" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1603992574773">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1493" height="174" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605180499144" />
+    <state width="1493" height="174" key="GridCell.Tab.0.right" timestamp="1605180499144">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1603992574773" />
+    <state width="1493" height="174" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605180499144" />
     <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1604011630320">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -153,5 +153,9 @@
     </state>
     <state x="148" y="198" key="git4idea.merge.GitPullDialog/0.0.1280.800/-1196.0.1196.896@0.0.1280.800" timestamp="1605041525538" />
     <state x="148" y="198" key="git4idea.merge.GitPullDialog/0.0.1280.800@0.0.1280.800" timestamp="1604011621714" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1605180629358">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1605180629358" />
   </component>
 </project>

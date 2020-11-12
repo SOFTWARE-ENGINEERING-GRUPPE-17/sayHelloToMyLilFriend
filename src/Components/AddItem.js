@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+
 export const AddItem = ({name, price, image, onChange, onSubmit}) => (
 
     <div className="row justify-content-center">
@@ -8,18 +9,17 @@ export const AddItem = ({name, price, image, onChange, onSubmit}) => (
             <input
                 type="text"
                 className="form-control mb-2 mr-sm-2"
-                placeholder="Item"
+                placeholder="Adresse"
                 value={name}
                 name="name"
                 onChange={onChange}
             />
 
-
             <div className="input-group mb-2 mr-sm-2">
                 <input
                     type="text"
                     className="form-control"
-                    placeholder="Price"
+                    placeholder="Pris"
                     value={price}
                     name="price"
                     onChange={onChange}
@@ -27,13 +27,12 @@ export const AddItem = ({name, price, image, onChange, onSubmit}) => (
                 <br/>
                 <input
                     type='file'
-                    label='image'
                     name={"image"}
                     value={image}
                     onChange={onChange}
                 />
             </div>
-            <button type="submit" className="btn btn-primary mb-2 pxy-4">Save</button>
+            <button type="submit" className="btn btn-primary mb-2 pxy-4">Legg til</button>
         </form>
     </div>
 );

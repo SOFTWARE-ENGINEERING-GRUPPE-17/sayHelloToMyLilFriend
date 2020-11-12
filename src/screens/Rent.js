@@ -1,9 +1,7 @@
 
 import React, {Component} from 'react';
-//import image from '../images/1.png';
 import {ItemCard} from "../Components/ItemCard";
 import {AddItem} from "../Components/AddItem";
-
 
 
 class Rent extends Component {
@@ -95,6 +93,8 @@ class Rent extends Component {
 
             <div className="container pt-4">
 
+
+                <h1 className="display-4 my-4 text-center text-muted">Parkeringer</h1>
                 <AddItem
                     name={name}
                     price={price}
@@ -102,9 +102,6 @@ class Rent extends Component {
                     onChange={this.handleInputChange}
                     onSubmit={this.addItem}
                 />
-
-                <h1 className="display-4 my-4 text-center text-muted">Items</h1>
-
                 <div className="row">
                     {
                         this.state.items.map((item, index) =>
