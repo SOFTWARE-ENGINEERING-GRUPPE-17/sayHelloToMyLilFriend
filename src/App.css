@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+html {
+  background-color: lightgrey;
+}
 nav {
   display: flex;
   justify-content: space-around;

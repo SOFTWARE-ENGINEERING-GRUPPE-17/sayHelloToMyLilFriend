@@ -3,26 +3,42 @@ import {Card, Button} from 'react-bootstrap';
 import '../App.css';
 
 
-
 function Park() {
-    const listStyle = {
-        listStyleType: "none",
+
+    const styles = {
+        alignItems: "center",
+        borderRadius: 25,
+        paddingLeft: "50%",
+        backgroundColor: "#ededed",
+        padding: 20,
+        width: '25rem',
+        margin: 10,
+
     }
-    const boxStyle = {
-        marginTop: 16,
-        paddingVertical: 8,
-        borderWidth: 10,
-        borderRadius: 6,
-        color: "black",
-        fontSize: 20,
-        fontWeight: "bold",
-        padding: 10,
-        backgroundColor: "#61dafb",
-        width: "6%"
+
+    const styles2 = {
+        alignItems: "center",
+        borderRadius: 25,
+        paddingLeft: "50%",
+        padding: 20,
+        width: '25rem',
+        backgroundColor: "#496fc6",
+        margin: 10
+
     }
+
+
     return (
-        <div style={{backgroundColor: "lightGrey"}}>
-            <Card style={{paddingLeft: "50%", backgroundColor: "#cdf7f7", padding: 10, width: '25rem'}}>
+        <div style={{
+            backgroundColor: "lightGrey",
+            display: 'flex',
+
+            height: '100vh',
+            alignItems: "center",
+            flexDirection: 'column',
+
+        }}>
+            <Card style={styles}>
                 <Card.Img width={400} height={250} variant="top"
                           src="https://cdn.homedit.com/wp-content/uploads/2017/04/Tree-House-open-space-Garage-for-two-cars-1024x682.jpg"/>
                 <Card.Body>
@@ -35,7 +51,7 @@ function Park() {
                 </Card.Body>
             </Card>
 
-            <Card style={{paddingLeft: "50%", padding: 10, width: '25rem'}}>
+            <Card style={styles2}>
                 <Card.Img width={400} height={250} variant="top"
                           src="https://i.pinimg.com/originals/9d/bf/54/9dbf54c3e738cd5ee5a5cab5209d1e9d.jpg"/>
                 <Card.Body>
@@ -48,7 +64,7 @@ function Park() {
                 </Card.Body>
             </Card>
 
-            <Card style={{backgroundColor: "#cdf7f7", padding: 10, width: '25rem'}}>
+            <Card style={styles}>
                 <Card.Img width={400} height={250} variant="top"
                           src="https://mygate.com/blog/wp-content/uploads/2020/03/parking_blogbanner-22.jpg"/>
                 <Card.Body>
@@ -61,20 +77,20 @@ function Park() {
                 </Card.Body>
             </Card>
 
-            <Card style={{padding: 10, width: '25rem'}}>
+            <Card style={styles2}>
                 <Card.Img width={400} height={250} variant="top"
                           src="https://www.autoguide.com/auto-news/wp-content/uploads//2012/01/parkatmyhouse.jpg"/>
                 <Card.Body>
                     <Card.Title>Smalvollveien 44
                         0667 Oslo</Card.Title>
                     <Card.Text>
-                       2 parkeringer
+                        2 parkeringer
                     </Card.Text>
                     <Button>Lei denne parkeringen</Button>
                 </Card.Body>
             </Card>
 
-            <Card style={{backgroundColor: "#cdf7f7", padding: 10, width: '25rem'}}>
+            <Card style={styles}>
                 <Card.Img width={400} height={250} variant="top"
                           src="https://www.toronto.ca/wp-content/uploads/2017/11/9929-applying-for-a-permit.jpg"/>
                 <Card.Body>
@@ -87,7 +103,7 @@ function Park() {
                 </Card.Body>
             </Card>
             <br/>
-            <Card style={{padding: 10, width: '25rem'}}>
+            <Card style={styles2}>
                 <Card.Img width={400} height={250} variant="top"
                           src="https://live.staticflickr.com/4124/5103266193_afd3ba7258_n.jpg"/>
                 <Card.Body>
