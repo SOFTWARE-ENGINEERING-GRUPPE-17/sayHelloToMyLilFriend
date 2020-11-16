@@ -6,12 +6,18 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "add": "^2.0.6",
+    "or": "^0.2.0",
+    "prop-types": "latest",
     "react": "^16.13.1",
     "react-bootstrap": "^1.4.0",
+    "react-date-picker": "^8.0.3",
+    "react-datepicker": "^3.3.0",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "prop-types": "latest"
+    "react-time-picker": "^4.0.1",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,5 +39,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "react-test-renderer": "^17.0.1"
   }
 }
