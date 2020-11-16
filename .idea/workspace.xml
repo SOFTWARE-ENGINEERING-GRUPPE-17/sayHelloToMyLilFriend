@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a5aa3e4-0a1b-4f12-900c-816b571aac03" name="Default Changelist" comment="Implementerte state management.">
+    <list default="true" id="3a5aa3e4-0a1b-4f12-900c-816b571aac03" name="Default Changelist" comment="implementert dato funksjonalitet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/parkering.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/parkering.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +118,7 @@
       <workItem from="1605025452531" duration="10325000" />
       <workItem from="1605180428065" duration="238000" />
       <workItem from="1605463961388" duration="619000" />
-      <workItem from="1605465362232" duration="10916000" />
+      <workItem from="1605465362232" duration="11849000" />
     </task>
     <task id="LOCAL-00001" summary="Lagd første aktivitest Diaggram for Hjemmesidet">
       <created>1604008251788</created>
@@ -158,7 +159,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1605549697076</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="implementert dato funksjonalitet">
+      <created>1605549966521</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1605549966521</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +189,8 @@
     <MESSAGE value="små endringer og fixer på oversikten over ledige parkerigner." />
     <MESSAGE value="Fjernet overflødig kode." />
     <MESSAGE value="Implementerte state management." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementerte state management." />
+    <MESSAGE value="implementert dato funksjonalitet" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementert dato funksjonalitet" />
   </component>
   <component name="WindowStateProjectService">
     <state x="25" y="2" key="CommitChangelistDialog2" timestamp="1605180738054">
