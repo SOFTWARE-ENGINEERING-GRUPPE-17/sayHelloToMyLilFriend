@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3a5aa3e4-0a1b-4f12-900c-816b571aac03" name="Default Changelist" comment="implementert dato funksjonalitet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/parkering.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/parkering.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTest.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +58,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -67,7 +71,7 @@
       <recent name="C:\Users\Preben\Documents\aaaProMap\minparkering\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.renders without crashing">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -89,8 +93,22 @@
       <test-file value="$PROJECT_DIR$/src/App.test.js" />
       <method v="2" />
     </configuration>
+    <configuration name="renders without crashing" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-names>
+        <test-name value="renders without crashing" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.renders without crashing" />
         <item itemvalue="Jest.App.test.js" />
       </list>
     </recent_temporary>
@@ -181,6 +199,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lagd første aktivitest Diaggram for Hjemmesidet" />
@@ -193,6 +212,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="implementert dato funksjonalitet" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="501" y="299" key="#ESLint" timestamp="1605735323136">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="501" y="299" key="#ESLint/0.0.1280.800@0.0.1280.800" timestamp="1605735323136" />
     <state x="25" y="2" key="CommitChangelistDialog2" timestamp="1605180738054">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -202,25 +225,25 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605537869494" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1605546763328">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1605738172783">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1603992574775" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1605738172783" />
     <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605546763328" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1605546763328">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1605738172781">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1603992574772" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1605738172781" />
     <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605546763328" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1605546763328">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1605738172780">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1603992574767" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1605738172780" />
     <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605546763328" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1605546763328">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1605738172782">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1603992574773" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1605738172782" />
     <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605546763328" />
     <state x="288" y="151" key="Vcs.Push.Dialog.v2" timestamp="1605547413064">
       <screen x="0" y="0" width="1536" height="864" />
