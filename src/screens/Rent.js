@@ -1,3 +1,4 @@
+
 import React, {Component} from 'react';
 import {ItemCard} from "../Components/ItemCard";
 import {AddItem} from "../Components/AddItem";
@@ -84,12 +85,13 @@ class Rent extends Component {
     };
 
 
+
+
     render() {
-        const {name, price, image} = this.state;
+        const {name, price, image   } = this.state;
         return <div>
 
             <div className="container pt-4">
-
                 <h1 className="display-4 my-4 text-center text-muted">Parkeringer</h1>
                 <AddItem
                     name={name}
@@ -113,6 +115,7 @@ class Rent extends Component {
                         )
                     }
                 </div>
+
                 <hr/>
             </div>
         </div>;

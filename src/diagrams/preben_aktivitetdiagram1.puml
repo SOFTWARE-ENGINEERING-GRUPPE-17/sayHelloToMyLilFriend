@@ -1,0 +1,9 @@
+@startuml
+(*)  --> "Home"
+if "chose activity" then
+-left->[rent a parking slot]"Browse parking spots"
+--> "Book parking slot"
+else
+--> [Register a parking slot] "Complete registration"
+endif
+@enduml

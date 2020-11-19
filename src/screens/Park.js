@@ -46,11 +46,12 @@ function Park() {
             flexDirection: 'column',
 
         }}>
+
             <Card style={styles}>
                 <Card.Img width={400} height={250} variant="top"
                           src="https://cdn.homedit.com/wp-content/uploads/2017/04/Tree-House-open-space-Garage-for-two-cars-1024x682.jpg"/>
                 <Card.Body  style={{backgroundColor: "#ededed", borderRadius: 25, padding: 10}}>
-                    <p>Fra:</p>
+                    <p  className={"p"}>Fra:</p>
                     <DatePicker
                         yearPlaceholder={"2020"}
                         monthPlaceholder={"01"}
@@ -69,7 +70,7 @@ function Park() {
                         2 parkeringer
                     </Card.Text>
 
-                    <Button onClick={() => setCount("Leid")}>{count} </Button>
+                    <Button className={"b1"} onClick={() => setCount("Leid")}>{count}</Button>
                 </Card.Body>
             </Card>
 

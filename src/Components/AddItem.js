@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Dropzone from "react-dropzone-uploader";
 
 
 export const AddItem = ({name, price, image, onChange, onSubmit}) => (
