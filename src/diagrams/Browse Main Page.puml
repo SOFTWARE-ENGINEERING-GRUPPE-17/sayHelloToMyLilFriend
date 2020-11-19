@@ -1,15 +1,15 @@
 @startuml
 (*)  --> "Land on Home Page"
 if "chose activity" then
--left->  "Show available parking slots"
--left->  "Adjust search filter"
+
+-left->[Show available parking slots] "Adjust search filter"
 --> "Scroll/read the parking-slot snippets"
 -right-> "Book a parking slot"
 else
---> "Register a parking slot"
+-->[Register a parking slot] "Fill inn info"
 endif
 
-"Register a parking slot" -->  ===B1===
+"Fill inn info" -->  ===B1===
 "Book a parking slot" --> ===B1===
 
 ===B1=== --> if "Logged in?"
@@ -19,15 +19,9 @@ endif
     else
     -->[Yes] "Login"
     endif
-"Login" --> (*)
+"Login" --> Confirm
  else
- -right->[Yes] (*)
-
-
-'--> "Register"
-'
-'--> "Register a parking slot"
-'Endif
-'-->"Login"
+ -right->[Yes] Confirm
+ --> (*)
 
 @enduml
