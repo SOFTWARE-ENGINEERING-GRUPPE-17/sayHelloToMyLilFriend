@@ -5,13 +5,12 @@ import Rent from "./Rent"
 
 Enzyme.configure({adapter: new Adapter()});
 
-//Test som Sjekker at Header viser riktig tekst.
-it("renders header in parkering", () => {
+//Test that check that the Heading is displaying the correct tekst.
+it("renders header correctly in parkering", () => {
     const wrapper = shallow(<Rent/>);
     const h1 = wrapper.find("h1");
     const result = h1.text();
 
     expect(result).toBe("Parkeringer");
-
 });
 

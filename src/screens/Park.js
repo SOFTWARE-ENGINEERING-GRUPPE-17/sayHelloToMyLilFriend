@@ -6,6 +6,7 @@ import '../App.css';
 
 function Park() {
 
+    // Styles
     const styles = {
         alignItems: "center",
         borderRadius: 25,
@@ -14,7 +15,6 @@ function Park() {
         padding: 20,
         width: '25rem',
         margin: 10,
-
     }
 
     const styles2 = {
@@ -25,11 +25,9 @@ function Park() {
         width: '25rem',
         backgroundColor: "#496fc6",
         margin: 10
-
     }
 
-
-
+    //States to handle the change of status of rented
     const [count, setCount] = useState("Lei denne parkeringen");
     const [count2, setCount2] = useState("Lei denne parkeringen");
     const [count3, setCount3] = useState("Lei denne parkeringen");
@@ -44,14 +42,13 @@ function Park() {
             height: '100vh',
             alignItems: "center",
             flexDirection: 'column',
-
         }}>
-
+            <h1>Ledige parkeringer</h1>
             <Card style={styles}>
                 <Card.Img width={400} height={250} variant="top"
                           src="https://cdn.homedit.com/wp-content/uploads/2017/04/Tree-House-open-space-Garage-for-two-cars-1024x682.jpg"/>
-                <Card.Body  style={{backgroundColor: "#ededed", borderRadius: 25, padding: 10}}>
-                    <p  className={"p"}>Fra:</p>
+                <Card.Body style={{backgroundColor: "#ededed", borderRadius: 25, padding: 10}}>
+                    <p className={"p"}>Fra:</p>
                     <DatePicker
                         yearPlaceholder={"2020"}
                         monthPlaceholder={"01"}
