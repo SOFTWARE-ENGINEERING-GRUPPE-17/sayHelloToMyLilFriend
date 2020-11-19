@@ -1,8 +1,8 @@
 import React from 'react';
 import App from './App';
 import Home from "./screens/HomeScreen";
-import Park from "./screens/parkering";
-import ItemCard from "./Components/ItemCard";
+import Park from "./screens/Park";
+
 
 import Adapter from "enzyme-adapter-react-16";
 import {configure, shallow, mount,

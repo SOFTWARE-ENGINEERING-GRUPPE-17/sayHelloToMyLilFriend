@@ -1,10 +1,12 @@
 import React from 'react';
 import Nav from "./Components/Nav";
 import Home from "./screens/HomeScreen";
-import Park from "./screens/parkering";
+import Park from "./screens/Park";
 import Rent from "./screens/Rent";
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
+
 
 
 function App() {
