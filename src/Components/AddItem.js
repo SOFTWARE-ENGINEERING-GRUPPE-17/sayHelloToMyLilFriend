@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Dropzone from "react-dropzone-uploader";
 
 
 export const AddItem = ({name, price, image, onChange, onSubmit}) => (
@@ -33,7 +32,7 @@ export const AddItem = ({name, price, image, onChange, onSubmit}) => (
                     onChange={onChange}
                 />
             </div>
-            <button type="submit" className="btn btn-primary mb-2 pxy-4">Legg til</button>
+            <button type="submit" className="btn btn-primary mb-2 pxy-4">Legg til park</button>
         </form>
     </div>
 );

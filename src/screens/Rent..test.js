@@ -1,17 +1,17 @@
-import React from "react";
-import Enzyme, {shallow} from "enzyme"
-import Adapter from "enzyme-adapter-react-16"
-import Rent from "./Rent"
+import React from 'react'
+import Enzyme, { shallow } from 'enzyme'
+import Adapter from 'enzyme-adapter-react-16'
 
-Enzyme.configure({adapter: new Adapter()});
+import Rent from "./Rent";
 
-//Test som Sjekker at Header viser riktig tekst.
-it("renders header in parkering", () => {
-    const wrapper = shallow(<Rent/>);
-    const h1 = wrapper.find("h1");
-    const result = h1.text();
+describe('Rent Component', () => {
 
-    expect(result).toBe("Parkeringer");
+  beforeAll(() => {
+    Enzyme.configure({ adapter: new Adapter() })
+  })
 
-});
-
+  it('renders correctly', () => {
+    const component = shallow(<Rent/>)
+    expect(component).toMatchSnapshot()
+  })
+})
