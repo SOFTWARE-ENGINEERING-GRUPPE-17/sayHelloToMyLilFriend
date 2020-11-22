@@ -10,7 +10,7 @@ export const Nav = () => (
     <nav>
         <h3>Parkering AS</h3>
         <ul className="nav-links">
-            <Link style={navStyle}  to="/Home">
+            <Link style={navStyle}  to="/">
                 <li>Hjem</li>
             </Link>
             <Link style={navStyle} to="/Park">

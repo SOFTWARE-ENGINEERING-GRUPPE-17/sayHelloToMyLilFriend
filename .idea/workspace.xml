@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5aa3e4-0a1b-4f12-900c-816b571aac03" name="Default Changelist" comment="Skrevet tester som sjekker at oversikten over parkeringsplasser rendrer.">
-      <change afterPath="$PROJECT_DIR$/src/Components/AddItem.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/__snapshots__/Rent..test.js.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AddItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AddItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Rent..test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Rent..test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Nav.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +64,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -188,6 +185,8 @@
       <workItem from="1605180428065" duration="238000" />
       <workItem from="1605463961388" duration="619000" />
       <workItem from="1605465362232" duration="11849000" />
+      <workItem from="1606083877258" duration="297000" />
+      <workItem from="1606084193560" duration="792000" />
     </task>
     <task id="LOCAL-00001" summary="Lagd første aktivitest Diaggram for Hjemmesidet">
       <created>1604008251788</created>
@@ -294,25 +293,25 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605537869494" />
-    <state width="748" height="173" key="GridCell.Tab.0.bottom" timestamp="1605804720003">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1238" height="237" key="GridCell.Tab.0.bottom" timestamp="1606084183151">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1605738172783" />
+    <state width="1238" height="237" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606084183151" />
     <state width="748" height="173" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605804720003" />
-    <state width="748" height="173" key="GridCell.Tab.0.center" timestamp="1605804720003">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1238" height="237" key="GridCell.Tab.0.center" timestamp="1606084183150">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1605738172781" />
+    <state width="1238" height="237" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606084183150" />
     <state width="748" height="173" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605804720003" />
-    <state width="748" height="173" key="GridCell.Tab.0.left" timestamp="1605804720003">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1238" height="237" key="GridCell.Tab.0.left" timestamp="1606084183149">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1605738172780" />
+    <state width="1238" height="237" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606084183149" />
     <state width="748" height="173" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605804720003" />
-    <state width="748" height="173" key="GridCell.Tab.0.right" timestamp="1605804720003">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1238" height="237" key="GridCell.Tab.0.right" timestamp="1606084183151">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1605738172782" />
+    <state width="1238" height="237" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606084183151" />
     <state width="748" height="173" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605804720003" />
     <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1605790375834">
       <screen x="0" y="0" width="1536" height="864" />
@@ -371,11 +370,11 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1604866385748" />
-    <state x="508" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605801815060">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606083924182">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800/-1196.0.1196.896@0.0.1280.800" timestamp="1605041511442" />
-    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1604866396042" />
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1606083924182" />
     <state x="508" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1605801815060" />
     <state x="148" y="198" key="git4idea.merge.GitPullDialog" timestamp="1605041525538">
       <screen x="0" y="0" width="1280" height="800" />
