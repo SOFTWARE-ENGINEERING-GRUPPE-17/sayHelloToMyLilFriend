@@ -8,17 +8,24 @@ import {configure, shallow, mount,
   render} from "enzyme";
 configure({ adapter: new Adapter() });
 
-it("renders without crashing", () => {
+it("renders a component without crashing", () => {
   // eslint-disable-next-line no-undef
   shallow(<App />);
 });
 
-it("renders without crashing", () => {
+it("renders a component without crashing", () => {
   // eslint-disable-next-line no-undef
   shallow(<Park />);
 });
 
-it("renders Account header", () => {
+// Test checking that Home screen is not crashing
+it("renders a component without crashing", () => {
+  // eslint-disable-next-line no-undef
+  shallow(<Home />);
+});
+
+// Test checking that Home Screen header "Velkommen" is visible
+it("renders Home header", () => {
   const wrapper = shallow(<Home />);
   const welcome = <h1>Velkommen! </h1>;
   expect(wrapper.contains(welcome)).toEqual(true);

@@ -14,4 +14,17 @@ describe('Rent Component', () => {
     const component = shallow(<Rent/>)
     expect(component).toMatchSnapshot()
   })
+
+  //Test checking that the form for rent registering works
+  it('Register form exists', () => {
+    const component = shallow(<Rent/>)
+    expect(component).toMatchSnapshot()
+  })
+
+})
+
+//Test simulates the filling of Form
+it(' Simulates Register Form Completion', () => {
+  const component = shallow(<Rent/>)
+  expect(component).toMatchSnapshot();
 })

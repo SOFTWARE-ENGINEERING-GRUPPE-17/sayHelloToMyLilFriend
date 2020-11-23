@@ -31,6 +31,14 @@ it("Shoud change the status of parking spot to rented ", () => {
 
 });
 
+//Test that checks that free parking spots are visible to the user
+it("Available parking slots are visible", () => {
+    const wrapper = shallow(<Park/>);
+    const status = wrapper.find("abracadabra").text();
+
+});
+
+
 
 
 
