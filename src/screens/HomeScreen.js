@@ -35,11 +35,11 @@ function Home() {
                 <h1>Velkommen! </h1>
             </div>
             <div className="valgDiv">
-                <Link style={bStyle} to="/Park">
-                    <p style={boxStyle}>Se ledige parkeringer</p>
+                <Link className={"ledigeParkeringer"} style={bStyle} to="/Park">
+                    <p  style={boxStyle}>Se ledige parkeringer</p>
                 </Link>
-                <Link style={bStyle} to="/Rent">
-                    <p style={boxStyle}>Lei ut din parkering</p>
+                <Link className={"leiUtParkering"} style={bStyle} to="/Rent">
+                    <p  style={boxStyle}>Lei ut din parkering</p>
                 </Link>
             </div>
         </div>

@@ -38,7 +38,17 @@ it("Available parking slots are visible", () => {
 
 });
 
-
+describe("Test to ensure the rendering of the card items", () => {
+    it("Should render card items and display parking spots", () => {
+        const wrapper = shallow(<Park/>);
+        expect(wrapper.find("Card.Card1").text());
+        expect(wrapper.find("Card.Card2").text());
+        expect(wrapper.find("Card.Card3").text());
+        expect(wrapper.find("Card.Card4").text());
+        expect(wrapper.find("Card.Card5").text());
+        expect(wrapper.find("Card.Card6").text());
+    });
+})
 
 
 

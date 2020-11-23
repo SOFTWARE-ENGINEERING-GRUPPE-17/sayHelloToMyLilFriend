@@ -44,7 +44,7 @@ function Park() {
             flexDirection: 'column',
         }}>
             <h1>Ledige parkeringer</h1>
-            <Card style={styles}>
+            <Card className={"Card1"} style={styles}>
                 <Card.Img width={400} height={250} variant="top"
                           src="https://cdn.homedit.com/wp-content/uploads/2017/04/Tree-House-open-space-Garage-for-two-cars-1024x682.jpg"/>
                 <Card.Body style={{backgroundColor: "#ededed", borderRadius: 25, padding: 10}}>
@@ -71,7 +71,7 @@ function Park() {
                 </Card.Body>
             </Card>
 
-            <Card style={styles2}>
+            <Card className={"Card2"} style={styles2}>
                 <Card.Img width={400} height={250} variant="top"
                           src="https://i.pinimg.com/originals/9d/bf/54/9dbf54c3e738cd5ee5a5cab5209d1e9d.jpg"/>
                 <Card.Body style={{backgroundColor: "#ededed", borderRadius: 25, padding: 10}}>
@@ -96,7 +96,7 @@ function Park() {
                 </Card.Body>
             </Card>
 
-            <Card style={styles}>
+            <Card className={"Card3"}style={styles}>
                 <Card.Img width={400} height={250} variant="top"
                           src="https://mygate.com/blog/wp-content/uploads/2020/03/parking_blogbanner-22.jpg"/>
                 <Card.Body>
@@ -121,7 +121,7 @@ function Park() {
                 </Card.Body>
             </Card>
 
-            <Card style={styles2}>
+            <Card className={"Card4"} style={styles2}>
                 <Card.Img width={400} height={250} variant="top"
                           src="https://www.autoguide.com/auto-news/wp-content/uploads//2012/01/parkatmyhouse.jpg"/>
                 <Card.Body style={{backgroundColor: "#ededed", borderRadius: 25, padding: 10}}>
@@ -146,7 +146,7 @@ function Park() {
                 </Card.Body>
             </Card>
 
-            <Card style={styles}>
+            <Card className={"Card5"} style={styles}>
                 <Card.Img width={400} height={250} variant="top"
                           src="https://www.toronto.ca/wp-content/uploads/2017/11/9929-applying-for-a-permit.jpg"/>
                 <Card.Body>
@@ -171,7 +171,7 @@ function Park() {
                 </Card.Body>
             </Card>
             <br/>
-            <Card style={styles2}>
+            <Card className={"Card6"} style={styles2}>
                 <Card.Img width={400} height={250} variant="top"
                           src="https://live.staticflickr.com/4124/5103266193_afd3ba7258_n.jpg"/>
                 <Card.Body style={{backgroundColor: "#ededed", borderRadius: 25, padding: 10}}>
