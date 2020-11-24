@@ -1,5 +1,5 @@
 import React from 'react'
-import Enzyme, { shallow } from 'enzyme'
+import Enzyme, { shallow, mount } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
 
 import Rent from "./Rent";
@@ -26,6 +26,21 @@ describe('Rent Component', () => {
     expect(wrapper.contains(AddItem)).toEqual(true);
     expect(wrapper.contains(ItemCard)).toEqual(true);
     // expect(wrapper.find("Card.Card1").text());
+
+  });
+
+  it('Registered form gets saved', () => {
+    const creator = mount(<AddItem name="adresse" label="name" price="price"/>);
+    const label = creator.find('label')
+    expect(label).toHaveLenth(1);
+    expect(label.prop('htmlFor')).toEqual('adresse');
+    expect(label.text()).toEqual('adresse');
+
+    const input = creator.find('input');
+    expect(input).toHaveLenth(1);
+    expect(input.prop('type')).toEqual('text');
+    expect(input.prop('name')).toEqual('adresse');
+    expect(input.prop('price')).toEqual('price');
 
   });
 

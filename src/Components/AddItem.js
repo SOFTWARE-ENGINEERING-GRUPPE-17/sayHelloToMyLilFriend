@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import 'react-dropzone-uploader/dist/styles.css';
+
 
 
 export const AddItem = ({name, price, image, onChange, onSubmit}) => (
@@ -36,6 +38,8 @@ export const AddItem = ({name, price, image, onChange, onSubmit}) => (
         </form>
     </div>
 );
+
+
 
 AddItem.propTypes = {
     name: PropTypes.string.isRequired,

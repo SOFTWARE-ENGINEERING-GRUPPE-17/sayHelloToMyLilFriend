@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a5aa3e4-0a1b-4f12-900c-816b571aac03" name="Default Changelist" comment="Skrevet tester som sjekker at oversikten over parkeringsplasser rendrer.">
+    <list default="true" id="3a5aa3e4-0a1b-4f12-900c-816b571aac03" name="Default Changelist" comment="implementert dato funksjonalitet">
+      <change afterPath="$PROJECT_DIR$/src/Components/Dropzones.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AddItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AddItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/Rent..test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Rent..test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/__snapshots__/Rent..test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/__snapshots__/Rent..test.js.snap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +61,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -70,95 +71,31 @@
       <recent name="C:\Users\Preben\Documents\aaaProMap\minparkering\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Rent Component.Register form exists">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rent Component.Register form exists" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="App.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/screens/Rent..test.js" />
-      <test-names>
-        <test-name value="Rent Component" />
-        <test-name value="Register form exists" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Se Lei Ut Din Parkering option is available" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/screens/HomeScreen.test.js" />
-      <test-names>
-        <test-name value="Se Lei Ut Din Parkering option is available" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Test to ensure correct paths for the buttons" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/screens/HomeScreen.test.js" />
-      <test-names>
-        <test-name value="Test to ensure correct paths for the buttons" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Test to ensure the correct rendering of the components.Renders the input" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/screens/Rent..test.js" />
-      <test-names>
-        <test-name value="Test to ensure the correct rendering of the components" />
-        <test-name value="Renders the input" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Test to ensure the rendering of the card items.Should render card items and display parking spots" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/screens/Park.test.js" />
-      <test-names>
-        <test-name value="Test to ensure the rendering of the card items" />
-        <test-name value="Should render card items and display parking spots" />
-      </test-names>
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Rent Component.Register form exists" />
-        <item itemvalue="Jest.Test to ensure the correct rendering of the components.Renders the input" />
-        <item itemvalue="Jest.Test to ensure the rendering of the card items.Should render card items and display parking spots" />
-        <item itemvalue="Jest.Test to ensure correct paths for the buttons" />
-        <item itemvalue="Jest.Se Lei Ut Din Parkering option is available" />
+        <item itemvalue="Jest.App.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +123,7 @@
       <workItem from="1605180428065" duration="238000" />
       <workItem from="1605463961388" duration="619000" />
       <workItem from="1605465362232" duration="11849000" />
+      <workItem from="1606213849487" duration="1795000" />
     </task>
     <task id="LOCAL-00001" summary="Lagd første aktivitest Diaggram for Hjemmesidet">
       <created>1604008251788</created>
@@ -232,19 +170,7 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1605549966521</updated>
     </task>
-    <task id="LOCAL−00008" summary="Skrevet tester som sjekker at status på e parkering endrer seg fra &quot;Lei denne parkeringen&quot; til &quot;Leid&quot; når knappen klikkes på.">
-      <created>1605792914787</created>
-      <option name="number" value="LOCAL−00008" />
-      <option name="presentableId" value="LOCAL−00008" />
-      <updated>1605792914787</updated>
-    </task>
-    <task id="LOCAL−00009" summary="Skrevet tester som sjekker at oversikten over parkeringsplasser rendrer.">
-      <created>1605798420653</created>
-      <option name="number" value="LOCAL−00009" />
-      <option name="presentableId" value="LOCAL−00009" />
-      <updated>1605798420653</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,20 +196,9 @@
     <MESSAGE value="Fjernet overflødig kode." />
     <MESSAGE value="Implementerte state management." />
     <MESSAGE value="implementert dato funksjonalitet" />
-    <MESSAGE value="Skrevet tester som sjekker at status på e parkering endrer seg fra &quot;Lei denne parkeringen&quot; til &quot;Leid&quot; når knappen klikkes på." />
-    <MESSAGE value="Skrevet tester som sjekker at oversikten over parkeringsplasser rendrer." />
-    <option name="LAST_COMMIT_MESSAGE" value="Skrevet tester som sjekker at oversikten over parkeringsplasser rendrer." />
+    <option name="LAST_COMMIT_MESSAGE" value="implementert dato funksjonalitet" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="501" y="299" key="#ESLint" timestamp="1605735323136">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="501" y="299" key="#ESLint/0.0.1280.800@0.0.1280.800" timestamp="1605735323136" />
-    <state x="699" y="93" width="505" height="615" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1606145041294">
-      <screen x="0" y="23" width="1243" height="777" />
-    </state>
-    <state x="839" y="100" width="606" height="664" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.864@0.0.1536.864" timestamp="1605791323157" />
-    <state x="699" y="93" width="505" height="615" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1243.777/-378.-1129.2048.1129@0.23.1243.777" timestamp="1606145041294" />
     <state x="25" y="2" key="CommitChangelistDialog2" timestamp="1605180738054">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -293,97 +208,45 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605537869494" />
-    <state width="1238" height="237" key="GridCell.Tab.0.bottom" timestamp="1606144982551">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1877" height="161" key="GridCell.Tab.0.bottom" timestamp="1606214090864">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1238" height="237" key="GridCell.Tab.0.bottom/0.0.1280.800/-378.-1152.2048.1152@0.0.1280.800" timestamp="1606144982551" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1605738172783" />
-    <state width="1493" height="182" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606139993842" />
-    <state width="1238" height="237" key="GridCell.Tab.0.center" timestamp="1606144982545">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1603992574775" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605546763328" />
+    <state width="1877" height="161" key="GridCell.Tab.0.bottom/0.0.1920.1040/-4096.0.1365.720@0.0.1920.1040" timestamp="1606214090864" />
+    <state width="1877" height="161" key="GridCell.Tab.0.center" timestamp="1606214090863">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1238" height="237" key="GridCell.Tab.0.center/0.0.1280.800/-378.-1152.2048.1152@0.0.1280.800" timestamp="1606144982545" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1605738172781" />
-    <state width="1493" height="182" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606139993842" />
-    <state width="1238" height="237" key="GridCell.Tab.0.left" timestamp="1606144982534">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1603992574772" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605546763328" />
+    <state width="1877" height="161" key="GridCell.Tab.0.center/0.0.1920.1040/-4096.0.1365.720@0.0.1920.1040" timestamp="1606214090863" />
+    <state width="1877" height="161" key="GridCell.Tab.0.left" timestamp="1606214090863">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1238" height="237" key="GridCell.Tab.0.left/0.0.1280.800/-378.-1152.2048.1152@0.0.1280.800" timestamp="1606144982534" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1605738172780" />
-    <state width="1493" height="182" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606139993842" />
-    <state width="1238" height="237" key="GridCell.Tab.0.right" timestamp="1606144982547">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1603992574767" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605546763328" />
+    <state width="1877" height="161" key="GridCell.Tab.0.left/0.0.1920.1040/-4096.0.1365.720@0.0.1920.1040" timestamp="1606214090863" />
+    <state width="1877" height="161" key="GridCell.Tab.0.right" timestamp="1606214090864">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1238" height="237" key="GridCell.Tab.0.right/0.0.1280.800/-378.-1152.2048.1152@0.0.1280.800" timestamp="1606144982547" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1605738172782" />
-    <state width="1493" height="182" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606139993842" />
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1605790375834">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605790375834" />
-    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1605790375834">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1605790375834" />
-    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1605790375834">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1605790375834" />
-    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1605790375834">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1605790375834" />
-    <state width="1493" height="277" key="GridCell.Tab.2.bottom" timestamp="1605790375834">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605790375834" />
-    <state width="1493" height="277" key="GridCell.Tab.2.center" timestamp="1605790375834">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1605790375834" />
-    <state width="1493" height="277" key="GridCell.Tab.2.left" timestamp="1605790375834">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1605790375834" />
-    <state width="1493" height="277" key="GridCell.Tab.2.right" timestamp="1605790375834">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1605790375834" />
-    <state width="1493" height="277" key="GridCell.Tab.3.bottom" timestamp="1605790375835">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.3.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605790375835" />
-    <state width="1493" height="277" key="GridCell.Tab.3.center" timestamp="1605790375834">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.3.center/0.0.1536.864@0.0.1536.864" timestamp="1605790375834" />
-    <state width="1493" height="277" key="GridCell.Tab.3.left" timestamp="1605790375834">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.3.left/0.0.1536.864@0.0.1536.864" timestamp="1605790375834" />
-    <state width="1493" height="277" key="GridCell.Tab.3.right" timestamp="1605790375834">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.3.right/0.0.1536.864@0.0.1536.864" timestamp="1605790375834" />
-    <state x="147" y="68" key="MergeDialog" timestamp="1606132855605">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="147" y="68" key="MergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1606132855605" />
-    <state x="288" y="151" key="Vcs.Push.Dialog.v2" timestamp="1605798383219">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1603992574773" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605546763328" />
+    <state width="1877" height="161" key="GridCell.Tab.0.right/0.0.1920.1040/-4096.0.1365.720@0.0.1920.1040" timestamp="1606214090864" />
+    <state x="360" y="182" key="Vcs.Push.Dialog.v2" timestamp="1606215656918">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604011630320" />
-    <state x="288" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605798383219" />
+    <state x="288" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605547413064" />
+    <state x="360" y="182" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-4096.0.1365.720@0.0.1920.1040" timestamp="1606215656918" />
     <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1604866385748">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1604866385748" />
-    <state x="508" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606132825939">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605041511442">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800/-1196.0.1196.896@0.0.1280.800" timestamp="1605041511442" />
     <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1604866396042" />
-    <state x="508" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1606132825939" />
     <state x="148" y="198" key="git4idea.merge.GitPullDialog" timestamp="1605041525538">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

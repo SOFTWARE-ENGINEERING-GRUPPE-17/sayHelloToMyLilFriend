@@ -1,13 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[` Simulates Register Form Completion 1`] = `ShallowWrapper {}`;
-
 exports[`Rent Component Register form exists 1`] = `ShallowWrapper {}`;
-
-exports[`Rent Component Register form works 1`] = `ShallowWrapper {}`;
-
-exports[`Rent Component available parkings are visible 1`] = `ShallowWrapper {}`;
-
-exports[`Rent Component register form works 1`] = `ShallowWrapper {}`;
 
 exports[`Rent Component renders correctly 1`] = `ShallowWrapper {}`;

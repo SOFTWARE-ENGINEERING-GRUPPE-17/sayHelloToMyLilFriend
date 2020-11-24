@@ -9,7 +9,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 
-function App() {
+export default function App() {
   return (
       <Router>
       <div>
@@ -23,7 +23,3 @@ function App() {
       </Router>
   );
 }
-
-
-
-export default App;
