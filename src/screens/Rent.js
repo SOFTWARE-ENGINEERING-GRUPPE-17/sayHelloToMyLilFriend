@@ -4,7 +4,7 @@ import {ItemCard} from "../Components/ItemCard";
 import {AddItem} from "../Components/AddItem";
 
 
-class Rent extends Component {
+export default class Rent extends Component {
     state = {
         image: "",
         name: "",
@@ -86,7 +86,7 @@ class Rent extends Component {
 
 
 
-
+//This is what is being rendered on the webpage.
     render() {
         const {name, price, image   } = this.state;
         return <div>
@@ -122,4 +122,3 @@ class Rent extends Component {
     }
 }
 
-export default Rent;

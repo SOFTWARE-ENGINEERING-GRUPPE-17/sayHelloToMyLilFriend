@@ -2,6 +2,9 @@ import React, { useState } from "react";
 
 import Dropzone from "react-dropzone";
 
+
+//Start of Dropzone function to be able to drag and drop images onto the website for easier use.
+//More needs to be added in Rent.js and Park.js for more valid use later on.
 export default function Dropzones() {
     const [fileNames, setFileNames] = useState([]);
     const handleDrop = acceptedFiles =>

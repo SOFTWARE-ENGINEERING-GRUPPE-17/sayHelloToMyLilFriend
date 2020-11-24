@@ -3,7 +3,6 @@ import Enzyme, { shallow, mount } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
 
 import Rent from "./Rent";
-import Home from "./HomeScreen";
 import Park from "./Park";
 import {ItemCard} from "../Components/ItemCard";
 import {AddItem} from "../Components/AddItem";
@@ -29,6 +28,7 @@ describe('Rent Component', () => {
 
   });
 
+  //Tester for the added item card. This tester will simulate a user input and check that the input and output is the same.
   it('Registered form gets saved', () => {
     const creator = mount(<AddItem name="adresse" label="name" price="price" image="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FImage&psig=AOvVaw17Li6F_Ei1Zp9PMG9Fee9E&ust=1606302309985000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLj_3MaEm-0CFQAAAAAdAAAAABAD" onChange="onChange" onSubmit="onSubmit"/>);
     const label = creator.find('label')

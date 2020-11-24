@@ -4,7 +4,7 @@ import DatePicker from 'react-date-picker';
 import '../App.css';
 
 
-function Park() {
+export default function Park() {
 
     // Styles
     const styles = {
@@ -96,7 +96,7 @@ function Park() {
                 </Card.Body>
             </Card>
 
-            <Card className={"Card3"}style={styles}>
+            <Card className={"Card3"} style={styles}>
                 <Card.Img width={400} height={250} variant="top"
                           src="https://mygate.com/blog/wp-content/uploads/2020/03/parking_blogbanner-22.jpg"/>
                 <Card.Body>
@@ -198,5 +198,3 @@ function Park() {
         </div>
     );
 }
-
-export default Park;

@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5aa3e4-0a1b-4f12-900c-816b571aac03" name="Default Changelist" comment="implementert dato funksjonalitet">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Rent..test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Rent..test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dropzones.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dropzones.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Park.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Park.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Rent..test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Rent.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Rent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Rent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +121,7 @@
       <workItem from="1605180428065" duration="238000" />
       <workItem from="1605463961388" duration="619000" />
       <workItem from="1605465362232" duration="11849000" />
-      <workItem from="1606213849487" duration="2872000" />
+      <workItem from="1606213849487" duration="3606000" />
     </task>
     <task id="LOCAL-00001" summary="Lagd første aktivitest Diaggram for Hjemmesidet">
       <created>1604008251788</created>
@@ -173,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606215781133</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="implementert dato funksjonalitet">
+      <created>1606217953970</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606217953970</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,21 +244,22 @@
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1603992574773" />
     <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605546763328" />
     <state width="1877" height="161" key="GridCell.Tab.0.right/0.0.1920.1040/-4096.0.1365.720@0.0.1920.1040" timestamp="1606214090864" />
-    <state x="360" y="182" key="Vcs.Push.Dialog.v2" timestamp="1606215785805">
+    <state x="360" y="182" key="Vcs.Push.Dialog.v2" timestamp="1606217957874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604011630320" />
     <state x="288" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605547413064" />
-    <state x="360" y="182" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-4096.0.1365.720@0.0.1920.1040" timestamp="1606215785805" />
+    <state x="360" y="182" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-4096.0.1365.720@0.0.1920.1040" timestamp="1606217957874" />
     <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1604866385748">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1604866385748" />
-    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605041511442">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="635" y="421" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606218678508">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800/-1196.0.1196.896@0.0.1280.800" timestamp="1605041511442" />
     <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1604866396042" />
+    <state x="635" y="421" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-4096.0.1365.720@0.0.1920.1040" timestamp="1606218678508" />
     <state x="148" y="198" key="git4idea.merge.GitPullDialog" timestamp="1605041525538">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
