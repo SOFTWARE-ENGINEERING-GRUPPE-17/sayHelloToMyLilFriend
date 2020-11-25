@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5aa3e4-0a1b-4f12-900c-816b571aac03" name="Default Changelist" comment="Feilrettinger.">
-      <change afterPath="$PROJECT_DIR$/src/diagrams/Sekvensdiagram_Preben.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Park.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Park.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/Park.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Park.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Rent.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Rent.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/__snapshots__/Rent..test.js.snap" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +75,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Jest.Rent Component.Register form exists">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Rent Component.Register form exists" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -175,6 +188,7 @@
       <workItem from="1605180428065" duration="238000" />
       <workItem from="1605463961388" duration="619000" />
       <workItem from="1605465362232" duration="11849000" />
+      <workItem from="1606343229893" duration="4882000" />
     </task>
     <task id="LOCAL-00001" summary="Lagd første aktivitest Diaggram for Hjemmesidet">
       <created>1604008251788</created>
@@ -283,30 +297,34 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605537869494" />
-    <state width="1238" height="237" key="GridCell.Tab.0.bottom" timestamp="1606144982551">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1877" height="161" key="GridCell.Tab.0.bottom" timestamp="1606343272824">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="237" key="GridCell.Tab.0.bottom/0.0.1280.800/-378.-1152.2048.1152@0.0.1280.800" timestamp="1606144982551" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1605738172783" />
     <state width="1493" height="182" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606139993842" />
-    <state width="1238" height="237" key="GridCell.Tab.0.center" timestamp="1606144982545">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1877" height="161" key="GridCell.Tab.0.bottom/0.0.1920.1040/-4096.0.1365.720@0.0.1920.1040" timestamp="1606343272824" />
+    <state width="1877" height="161" key="GridCell.Tab.0.center" timestamp="1606343272824">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="237" key="GridCell.Tab.0.center/0.0.1280.800/-378.-1152.2048.1152@0.0.1280.800" timestamp="1606144982545" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1605738172781" />
     <state width="1493" height="182" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606139993842" />
-    <state width="1238" height="237" key="GridCell.Tab.0.left" timestamp="1606144982534">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1877" height="161" key="GridCell.Tab.0.center/0.0.1920.1040/-4096.0.1365.720@0.0.1920.1040" timestamp="1606343272824" />
+    <state width="1877" height="161" key="GridCell.Tab.0.left" timestamp="1606343272824">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="237" key="GridCell.Tab.0.left/0.0.1280.800/-378.-1152.2048.1152@0.0.1280.800" timestamp="1606144982534" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1605738172780" />
     <state width="1493" height="182" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606139993842" />
-    <state width="1238" height="237" key="GridCell.Tab.0.right" timestamp="1606144982547">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1877" height="161" key="GridCell.Tab.0.left/0.0.1920.1040/-4096.0.1365.720@0.0.1920.1040" timestamp="1606343272824" />
+    <state width="1877" height="161" key="GridCell.Tab.0.right" timestamp="1606343272824">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="237" key="GridCell.Tab.0.right/0.0.1280.800/-378.-1152.2048.1152@0.0.1280.800" timestamp="1606144982547" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1605738172782" />
     <state width="1493" height="182" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606139993842" />
+    <state width="1877" height="161" key="GridCell.Tab.0.right/0.0.1920.1040/-4096.0.1365.720@0.0.1920.1040" timestamp="1606343272824" />
     <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1605790375834">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -387,5 +405,17 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1605548131930" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/screens/Park.js</url>
+          <line>173</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

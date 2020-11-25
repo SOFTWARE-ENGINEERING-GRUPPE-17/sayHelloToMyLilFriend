@@ -1,5 +1,5 @@
 import React from "react";
-import Enzyme, {shallow} from "enzyme"
+import Enzyme, {shallow, mount} from "enzyme"
 import Adapter from "enzyme-adapter-react-16"
 import Park from "./Park"
 
@@ -28,12 +28,16 @@ it("Shoud change the status of parking spot to rented ", () => {
     //Checking the status again
     expect(status2).toBe("Leid");
 });
-
+    //o
 //Test that checks that free parking spots are visible to the user
 it("Available parking slots are visible", () => {
-    const wrapper = shallow(<Park/>);
-    const status = wrapper.find("abracadabra").text();
+    const wrapper = mount(<Park/>);
+
+    expect(wrapper.find('#test')).toEqual({});
+  //  expect(status.prop('variant')).toEqual('top')
+
 });
+
 
 describe("Test to ensure the rendering of the 6 card items", () => {
     it("Should render card items and display parking spots", () => {

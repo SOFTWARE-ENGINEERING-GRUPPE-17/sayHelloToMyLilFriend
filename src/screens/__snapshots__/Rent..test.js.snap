@@ -1,5 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Rent Component Register form exists 1`] = `ShallowWrapper {}`;
-
-exports[`Rent Component renders correctly 1`] = `ShallowWrapper {}`;

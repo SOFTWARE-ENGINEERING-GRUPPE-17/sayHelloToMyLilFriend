@@ -44,7 +44,7 @@ export default function Park() {
             flexDirection: 'column',
         }}>
             <h1>Ledige parkeringer</h1>
-            <Card className={"Card1"} style={styles}>
+            <Card className={"Card1"} style={styles} id={"test"}>
                 <Card.Img width={400} height={250} variant="top"
                           src="https://cdn.homedit.com/wp-content/uploads/2017/04/Tree-House-open-space-Garage-for-two-cars-1024x682.jpg"/>
                 <Card.Body style={{backgroundColor: "#ededed", borderRadius: 25, padding: 10}}>
