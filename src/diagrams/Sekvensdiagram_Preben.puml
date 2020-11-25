@@ -1,0 +1,46 @@
+@startuml
+actor User
+boundary Frontend
+boundary Backend
+database Database
+entity Server
+control Payment
+/' -------------- Innlogging ------------- '/
+User -> Frontend: Log inn with \nusername + password
+Frontend -> Backend: Username +\n password
+Backend -> Database: Username +\n password
+Database -> Backend: OK
+Backend -> Frontend: OK
+Frontend -> User: Now signed in
+
+/' -------------- Finne plass ------------- '/
+User -> Frontend: Find P-spot
+Frontend -> User: Select location
+User -> Frontend: Location selected
+Frontend -> User: Select start time
+User -> Frontend: Startime selected
+Frontend -> Backend: Find P-spots matching filter
+Backend -> Database: Find P-spots \n matching filter
+Database -> Backend: Found some P-spots
+Backend -> Frontend: List with P-spots
+Backend -> Server: Find the P-spots images
+Server -> Frontend: P-spots pictures
+Frontend -> User: Select a P-spot, \nstarttime and endtime
+User -> Frontend: Selected
+
+/' -------------- Betaling ---------------- '/
+Frontend -> Payment: Take payment from user
+Frontend -> Backend: User has selected
+Payment -> Frontend: Present this form to user
+Frontend -> User: Fill inn payment info
+User -> Frontend: Payment info
+Frontend -> Payment: Verify this info
+Payment -> Frontend: Payment OK
+Frontend -> Backend: Payment OK
+Backend -> Database: Insert reservation
+Database -> Database: Verifying
+Database -> Backend: Inserted successfully
+Backend -> "E-Mail": Send confirmation
+Backend -> Frontend: Reserved
+Frontend -> User: Reservation complete
+@enduml
